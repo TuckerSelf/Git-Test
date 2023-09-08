@@ -10,8 +10,18 @@
 
 using namespace std;
 
+int sum(int input){
+  int output  = 0;
+  for(int i=0; i<=input; i++)
+    output += i;
+  return output;
+}
+
 int main() {
-  cout << "Hello World!" << endl;
+  int n;
+  cout << "Input a positive interger: ";
+  cin >> n;
+  cout << endl << sum(n) << endl;
   
   return 0;
 }
