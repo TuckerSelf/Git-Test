@@ -1,0 +1,1 @@
+This project is created with the intent on practicing and re-getting used to git and emacs.
