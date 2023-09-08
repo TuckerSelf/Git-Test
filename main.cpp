@@ -17,11 +17,18 @@ int sum(int input){
   return output;
 }
 
+int product(int input){
+  int output  = 1;
+  for(int i=1; i<=input; i++)
+    output *= i;
+  return output;
+}
+
 int main() {
   int n;
   cout << "Input a positive interger: ";
   cin >> n;
-  cout << endl << sum(n) << endl;
+  cout << endl << sum(n) << endl << product(n) << endl;
   
   return 0;
 }
